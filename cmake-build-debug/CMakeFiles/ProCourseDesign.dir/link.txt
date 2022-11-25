@@ -1,0 +1,3 @@
+"D:\JetBrain\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ProCourseDesign.dir/objects.a
+D:\JetBrain\mingw64\mingw64\bin\ar.exe qc CMakeFiles\ProCourseDesign.dir/objects.a @CMakeFiles\ProCourseDesign.dir\objects1.rsp
+D:\JetBrain\mingw64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ProCourseDesign.dir/objects.a -Wl,--no-whole-archive -o ProCourseDesign.exe -Wl,--out-implib,libProCourseDesign.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ProCourseDesign.dir\linklibs.rsp

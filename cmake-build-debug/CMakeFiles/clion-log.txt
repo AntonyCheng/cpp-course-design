@@ -1,0 +1,4 @@
+"D:\JetBrain\CLion 2022.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/JetBrain/mingw64/mingw64/bin/mingw32-make.exe -DCMAKE_C_COMPILER=D:/JetBrain/mingw64/mingw64/bin/gcc.exe -DCMAKE_CXX_COMPILER=D:/JetBrain/mingw64/mingw64/bin/g++.exe -G "CodeBlocks - MinGW Makefiles" -S D:\CPPLearning\ProCourseDesign -B D:\CPPLearning\ProCourseDesign\cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/CPPLearning/ProCourseDesign/cmake-build-debug
