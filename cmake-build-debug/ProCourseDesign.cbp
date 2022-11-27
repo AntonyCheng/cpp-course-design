@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/CPPLearning/ProCourseDesign/header/Engineer.h">
+			<Option target="ProCourseDesign"/>
+		</Unit>
 		<Unit filename="D:/CPPLearning/ProCourseDesign/main.cpp">
+			<Option target="ProCourseDesign"/>
+		</Unit>
+		<Unit filename="D:/CPPLearning/ProCourseDesign/resource/Engineer.cpp">
 			<Option target="ProCourseDesign"/>
 		</Unit>
 		<Unit filename="D:/CPPLearning/ProCourseDesign/CMakeLists.txt">

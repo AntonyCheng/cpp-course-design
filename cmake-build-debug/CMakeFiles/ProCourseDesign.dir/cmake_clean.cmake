@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ProCourseDesign.dir/main.cpp.obj"
   "CMakeFiles/ProCourseDesign.dir/main.cpp.obj.d"
+  "CMakeFiles/ProCourseDesign.dir/resource/Engineer.cpp.obj"
+  "CMakeFiles/ProCourseDesign.dir/resource/Engineer.cpp.obj.d"
   "ProCourseDesign.exe"
   "ProCourseDesign.exe.manifest"
   "ProCourseDesign.pdb"

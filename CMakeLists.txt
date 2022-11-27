@@ -7,6 +7,6 @@ include_directories(D:\\MySQL8\\MySQL\\MySQL\ Server\ 8.0\\include)  #include文
 link_directories(D:\\MySQL8\\MySQL\\MySQL\ Server\ 8.0\\lib) #lib文件夹位置
 link_libraries(libmysql)  #lib下dll文件名
 
-add_executable(ProCourseDesign main.cpp)
+add_executable(ProCourseDesign main.cpp resource/Engineer.cpp header/Engineer.h)
 
 target_link_libraries(ProCourseDesign libmysql)

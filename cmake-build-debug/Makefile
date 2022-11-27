@@ -152,6 +152,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProCourseDesign.dir\build.make CMakeFiles/ProCourseDesign.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+resource/Engineer.obj: resource/Engineer.cpp.obj
+.PHONY : resource/Engineer.obj
+
+# target to build an object file
+resource/Engineer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProCourseDesign.dir\build.make CMakeFiles/ProCourseDesign.dir/resource/Engineer.cpp.obj
+.PHONY : resource/Engineer.cpp.obj
+
+resource/Engineer.i: resource/Engineer.cpp.i
+.PHONY : resource/Engineer.i
+
+# target to preprocess a source file
+resource/Engineer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProCourseDesign.dir\build.make CMakeFiles/ProCourseDesign.dir/resource/Engineer.cpp.i
+.PHONY : resource/Engineer.cpp.i
+
+resource/Engineer.s: resource/Engineer.cpp.s
+.PHONY : resource/Engineer.s
+
+# target to generate assembly for a file
+resource/Engineer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ProCourseDesign.dir\build.make CMakeFiles/ProCourseDesign.dir/resource/Engineer.cpp.s
+.PHONY : resource/Engineer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... resource/Engineer.obj
+	@echo ... resource/Engineer.i
+	@echo ... resource/Engineer.s
 .PHONY : help
 
 
