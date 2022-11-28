@@ -46,14 +46,14 @@ int main() {
         cin >> selection1;
         if (selection1 == 1) {
             selectAllEngineer();
-            cout << "查询完毕，输入任一字符返回主菜单……" << endl;
+            cout << "查询完毕，输入任一数字返回主菜单……" << endl;
             getchar();
             getchar();
         } else if (selection1 == 2) {
             bool page2 = true;
             while (page2) {
                 selectEngineer();
-                cout << "是否继续查询？（是/否==1/其他）" << endl;
+                cout << "是否继续查询？（是/否==1/其他数字）" << endl;
                 int selection2 = 0;
                 cin >> selection2;
                 if (selection2 == 1) {
@@ -108,7 +108,7 @@ int main() {
                 engineer.setEngineerAddress(engineer_address);
                 engineer.setEngineerPhone(engineer_phone);
                 addEngineer(engineer);
-                cout << "是否继续添加？（是/否==1/其他）" << endl;
+                cout << "是否继续添加？（是/否==1/其他数字）" << endl;
                 int selection2 = 0;
                 cin >> selection2;
                 if (selection2 == 1) {
@@ -120,7 +120,7 @@ int main() {
         } else if (selection1 == 4) {
             bool page2 = true;
             while (page2) {
-                cout << "请选择一下修改方式：（输入其他则表示退出选择）" << endl;
+                cout << "请选择一下修改方式：（输入其他数字则表示退出选择）" << endl;
                 cout << "1.全部信息修改" << endl;
                 cout << "2.部分信息修改" << endl;
                 cout << "你的选择是：" << endl;
@@ -140,7 +140,7 @@ int main() {
                     cout << "正在退出……" << endl;
                     page2 = false;
                 }
-                cout << "是否继续修改？（是/否==1/其他）" << endl;
+                cout << "是否继续修改？（是/否==1/其他数字）" << endl;
                 cin >> selection2;
                 if (selection2 == 1) {
                     continue;
@@ -155,7 +155,7 @@ int main() {
                 string engineer_number;
                 cin >> engineer_number;
                 deleteEngineer(engineer_number);
-                cout << "是否继续删除？（是/否==1/其他）" << endl;
+                cout << "是否继续删除？（是/否==1/其他数字）" << endl;
                 int selection2 = 0;
                 cin >> selection2;
                 if (selection2 == 1) {
@@ -168,7 +168,7 @@ int main() {
             bool page2 = true;
             while (page2) {
                 sortByEngineer();
-                cout << "是否继续排序？（是/否==1/其他）" << endl;
+                cout << "是否继续排序？（是/否==1/其他数字）" << endl;
                 int selection2 = 0;
                 cin >> selection2;
                 if (selection2 == 1) {
@@ -179,12 +179,12 @@ int main() {
             }
         } else if (selection1 == 7) {
             createFile();
-            cout << "保存成功，路径在D:\\work.txt！输入任一字符退出……" << endl;
+            cout << "保存成功，路径在D:\\work.txt！输入任一数字退出……" << endl;
             getchar();
             getchar();
         } else if (selection1 == 8) {
             int selection2 = 0;
-            cout << "是否退出系统(是/否 == 1/其他)：" << endl;
+            cout << "是否退出系统(是/否 == 1/其他数字)：" << endl;
             cin >> selection2;
             if (selection2 == 1) {
                 page1 = false;
@@ -194,7 +194,7 @@ int main() {
             }
         } else {
             page1 = true;
-            cout << "输入有误！输入任一字符返回主菜单……" << endl;
+            cout << "输入有误！输入任一数字返回主菜单……" << endl;
             getchar();
             getchar();
         }
@@ -419,7 +419,7 @@ void updateEngineerInfo(const string& engineer_number) {
         return;
     }
     int selection = 0;
-    cout << "请选择你要修改的信息：(输入其他表示退出选择)" << endl;
+    cout << "请选择你要修改的信息：(输入其他数字表示退出选择)" << endl;
     cout << "1.姓名" << endl;
     cout << "2.性别" << endl;
     cout << "3.学位" << endl;
@@ -481,7 +481,7 @@ void updateEngineerInfo(const string& engineer_number) {
         cout << "正在退出……" << endl;
         return;
     }
-    cout << "修改完毕，输入任一字符以退出……" << endl;
+    cout << "修改完毕，输入任一数字以退出……" << endl;
     getchar();
     getchar();
 }
@@ -506,7 +506,7 @@ void deleteEngineer(const string& engineer_number) {
  * 升序排序
  */
 void sortByEngineer() {
-    cout << "请选择一下排序方式：（输入其他则表示退出选择）" << endl;
+    cout << "请选择一下排序方式：（输入其他数字则表示退出选择）" << endl;
     cout << "1.升序排序" << endl;
     cout << "2.降序排序" << endl;
     int selection = 0;
@@ -527,7 +527,7 @@ void sortByEngineer() {
  * 根据条件查询工程师信息
  */
 void selectEngineer() {
-    cout << "请选择一下查找方式：（输入其他则表示退出选择）" << endl;
+    cout << "请选择一下查找方式：（输入其他数字则表示退出选择）" << endl;
     cout << "1.工号查找" << endl;
     cout << "2.姓名查找" << endl;
     cout << "3.学历查找" << endl;
@@ -558,7 +558,7 @@ void selectEngineer() {
         cout << "正在退出……" << endl;
         return;
     }
-    cout << "查询完毕，输入任一字符以退出……" << endl;
+    cout << "查询完毕，输入任一数字以退出……" << endl;
     getchar();
     getchar();
 }

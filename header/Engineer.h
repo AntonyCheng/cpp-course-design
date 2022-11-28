@@ -58,7 +58,6 @@ public:
 
     void setEngineerPhone(const string &engineerPhone);
 
-
 };
 
 #endif //PROCOURSEDESIGN_ENGINEER_H
