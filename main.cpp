@@ -212,7 +212,7 @@ bool connectMysql() {
     if (!(mysql_real_connect(&mysql,
                              "localhost",//主机
                              "root",//用户名
-                             "cry020114",//密码
+                             "123456",//密码
                              "cpp_database",//数据库名
                              3306,//端口号
                              nullptr, 0//最后两个参数的常用写法
